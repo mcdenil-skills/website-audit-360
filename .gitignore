@@ -1,0 +1,23 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Generated
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+coverage/
+*.log
