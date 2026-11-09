@@ -88,6 +88,8 @@ def main() -> int:
         "тег 1125",
         "WCAG 2.2 AA",
         "OWASP ASVS audit",
+        "Запрет на выдумывание и заполнение квоты",
+        "Finding без evidence удаляется из отчёта",
     ]
     for term in required_terms:
         if term not in skill:
